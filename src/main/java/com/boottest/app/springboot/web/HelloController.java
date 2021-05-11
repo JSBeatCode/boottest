@@ -20,6 +20,7 @@ public class HelloController {
             @RequestParam("amount") int amount
     )
     {
+        System.out.println("check");
         return new HelloResponseDto(name, amount);
     }
 
